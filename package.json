@@ -1,0 +1,22 @@
+{
+  "author": {
+    "name": "Mikael Korsgaard"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mbkinnovo/cordova-plugin-extrafiles"
+  },
+  "name": "cordova-plugin-extrafiles",
+  "version": "0.1.19",
+  "description": "Cordova plugin for Extra Files",
+  "cordova": {
+    "id": "cordova-plugin-extrafiles",
+    "platforms": [
+      "android",
+      "ios",
+      "browser"
+    ]
+  },
+  "keywords": []
+}
