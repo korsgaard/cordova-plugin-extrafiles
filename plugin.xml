@@ -10,13 +10,9 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 		<engine name="cordova" version=">=3.2.0" />
 	</engines>
 
-	<platform name="android">
-    <resource-file src="src/android/res/drawable-hdpi/yourImage.png" target="res/drawable-hdpi/yourImage.png" />
-	</platform>
+    <keywords>ecosystem:cordova,cordova,phonegap,resource,resources</keywords>
 
-	<platform name="ios">
-	</platform>
+    <license>MIT</license>
 
-	<platform name="browser">
-	</platform>
+    <hook src="prepare.js" type="after_prepare" />
 </plugin>
