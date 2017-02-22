@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-extrafiles" version="0.1.19"
+xmlns="http://apache.org/cordova/ns/plugins/1.0"
+xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>Cordova Extra FIles Plugin</name>
+
+	<license>MIT</license>
+
+	<engines>
+		<engine name="cordova" version=">=3.2.0" />
+	</engines>
+
+	<platform name="android">
+    <resource-file src="src/android/res/drawable-hdpi/yourImage.png" target="res/drawable-hdpi/yourImage.png" />
+	</platform>
+
+	<platform name="ios">
+	</platform>
+
+	<platform name="browser">
+	</platform>
+</plugin>
